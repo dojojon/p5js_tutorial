@@ -27,7 +27,7 @@ These notes and code can be found on [GitHub](https://github.com/dojojon/p5js_tu
 
 [Open Processing](https://www.openprocessing.org)  Web site with lots of examples with source code.  If you register you can also start publishing your own on the site and even edit and create directly on the site.
 
-[The Coding Train] (https://www.youtube.com/user/shiffman/playlists?sort=dd&shelf_id=14&view=50) Is a you tube chanel with lots of fund short coding examples, including lots of p5.js.
+[The Coding Train](https://www.youtube.com/user/shiffman/playlists?sort=dd&shelf_id=14&view=50) Is a you tube chanel with lots of fund short coding examples, including lots of p5.js.
 
 ## Steps
 
@@ -47,9 +47,9 @@ These notes and code can be found on [GitHub](https://github.com/dojojon/p5js_tu
 
     ```javascript
     function setup(){
-        
+
     }
-    ``` 
+    ```
 
 1. This code will execute once when the script starts up.  It useful to push code in here to set up and data you need, define the size of the drawing area (canvas) etc.
 
@@ -95,7 +95,6 @@ These notes and code can be found on [GitHub](https://github.com/dojojon/p5js_tu
     }
     ```
 
-
 1. OK,  Lets add another function ```draw()```.  This get called in a loop as quickly as your browser can run it.  We can use this to draw stuff that changes on the canvas.
 
     ```javascript
@@ -128,6 +127,7 @@ These notes and code can be found on [GitHub](https://github.com/dojojon/p5js_tu
         ellipse(random(width), random(height), 20, 20);
     }
     ```
+
 1. We can also change the size the circles at draw.
 
     ```javascript
@@ -137,7 +137,7 @@ These notes and code can be found on [GitHub](https://github.com/dojojon/p5js_tu
     }
     ```
 
-1. Random colors, sure.  Colors are defined using 3 numbers Red, Green and Blue between 0 and 255.  We can use ```random()``` to set the color. 
+1. Random colors, sure.  Colors are defined using 3 numbers Red, Green and Blue between 0 and 255.  We can use ```random()``` to set the color.
 
    ```javascript
     function draw() {
